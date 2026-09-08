@@ -308,6 +308,14 @@ footer a:hover{color:#fff;}
 
   gtag('config', 'AW-17602111770');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href^="tel:"], a[href*="wa.me"]');
+  if (link) {
+    gtag('event', 'conversion', {'send_to': 'AW-17602111770/1lWLCKuKvuIcEJrSq8lB'});
+  }
+});
+</script>
 </head>
 <body>
 
