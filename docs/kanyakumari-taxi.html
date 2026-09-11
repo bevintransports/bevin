@@ -83,7 +83,9 @@
     {"@type":"Question","name":"Can I combine a Kanyakumari trip with other pilgrimage stops?",
      "acceptedAnswer":{"@type":"Answer","text":"Yes. A Kanyakumari trip is commonly combined with a stop at Uvari or a Nava Thirupathi temple along the way, since they lie on a similar route from Tiruchendur."}},
     {"@type":"Question","name":"What vehicles are available for the Kanyakumari route?",
-     "acceptedAnswer":{"@type":"Answer","text":"Sedan (Dzire, Etios) for up to 4 passengers, SUV (Innova, Ertiga) for up to 7 passengers, and Tempo Traveller for larger groups are all available for this route."}}
+     "acceptedAnswer":{"@type":"Answer","text":"Sedan (Dzire, Etios) for up to 4 passengers, SUV (Innova, Ertiga) for up to 7 passengers, and Tempo Traveller for larger groups are all available for this route."}},
+    {"@type":"Question","name":"Is the trip GPS-tracked for safety?",
+     "acceptedAnswer":{"@type":"Answer","text":"Yes. Trips can be GPS-tracked with live location sharing available on request, so family members can follow the journey in real time."}}
   ]
 }
 </script>
@@ -304,6 +306,14 @@ footer a:hover{color:#fff;}
 
   gtag('config', 'AW-17602111770');
 </script>
+<script>
+document.addEventListener('click', function(e) {
+  var link = e.target.closest('a[href^="tel:"], a[href*="wa.me"]');
+  if (link) {
+    gtag('event', 'conversion', {'send_to': 'AW-17602111770/1lWLCKuKvuIcEJrSq8lB'});
+  }
+});
+</script>
 </head>
 <body>
 
@@ -391,18 +401,18 @@ footer a:hover{color:#fff;}
           <img src="/images/bevin-transports-taxi-coastal-road.jpg" alt="Bevin Transports sedan taxi" loading="lazy" style="width:100%; height:140px; object-fit:cover; border-radius:var(--radius); margin-bottom:12px;">
           <span class="role">Up to 4 Passengers</span>
           <h3>Sedan — Dzire / Etios</h3>
-          <p>Best for solo travellers, couples, or small families with light luggage.</p>
+          <p>Best for solo travellers, couples, or small families with light luggage. Fits 2 medium bags. Child seat available on request; easy entry for seniors.</p>
         </div>
         <div class="area-card">
           <img src="/images/bevin-transports-suv-taxi.jpg" alt="Bevin Transports SUV taxi" loading="lazy" style="width:100%; height:140px; object-fit:cover; border-radius:var(--radius); margin-bottom:12px;">
           <span class="role">Up to 7 Passengers</span>
           <h3>SUV — Innova / Ertiga</h3>
-          <p>Ideal for families or small groups with more luggage, most popular for this route.</p>
+          <p>Ideal for families or small groups with more luggage, most popular for this route. Fits 4 large bags. Child seat available on request; extra legroom for seniors.</p>
         </div>
         <div class="area-card">
           <span class="role">13–17 Passengers</span>
           <h3>Tempo Traveller</h3>
-          <p>For larger groups arriving together — pilgrimage groups, tours, or family gatherings.</p>
+          <p>For larger groups arriving together — pilgrimage groups, tours, or family gatherings. Full luggage rack for group bags. Accessible boarding for seniors and families.</p>
         </div>
       </div>
     </div>
@@ -435,6 +445,10 @@ footer a:hover{color:#fff;}
         <details>
           <summary>What vehicles are available for this route?</summary>
           <p>Sedan (Dzire, Etios) for up to 4 passengers, SUV (Innova, Ertiga) for up to 7 passengers, and Tempo Traveller for larger groups are all available.</p>
+        </details>
+        <details>
+          <summary>Is the trip GPS-tracked for safety?</summary>
+          <p>Yes. Trips can be GPS-tracked with live location sharing available on request, so family members can follow the journey in real time.</p>
         </details>
       </div>
     </div>
