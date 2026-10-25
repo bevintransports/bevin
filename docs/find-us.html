@@ -104,6 +104,9 @@ header.site{position:sticky; top:0; z-index:50; background:rgba(255,255,255,.92)
 footer{background:var(--navy-deep); color:#AFCFE6; padding:36px 0; text-align:center; font-size:.85rem; margin-top:40px;}
 footer a{color:#fff; text-decoration:none; font-weight:600;}
 @media (max-width:620px){.info-grid{grid-template-columns:1fr;}}
+.faq details{background:var(--off); border:1px solid var(--line); border-radius:var(--radius); padding:16px 20px; margin-bottom:12px;}
+.faq summary{font-weight:700; color:var(--navy-deep); cursor:pointer; font-family:var(--font-body);}
+.faq details p{margin:10px 0 0; color:var(--muted);}
 </style>
 <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17602111770"></script>
 <script>
@@ -171,6 +174,29 @@ document.addEventListener('click', function(e) {
       <p>See verified customer reviews and photos on our <a href="https://maps.app.goo.gl/26dJ6t7PG7LdoDef8" style="color:var(--sea); font-weight:600;">Google Business Profile</a>.</p>
     </div>
   </div>
+
+  <section style="margin-top:32px;">
+    <h2 style="text-align:center;">About Bevin Transports</h2>
+    <p style="max-width:640px; margin:12px auto 0; text-align:center; color:var(--ink-soft, #555);">Based right at Tiruchendur Bus Stand, Bevin Transports runs 24/7 call taxi, airport transfer, and pilgrimage taxi service across Tiruchendur, Thoothukudi, and the surrounding coast. Round-trip outstation trips, local sightseeing packages, and group travel in Sedan, SUV, or Tempo Traveller are all available — call or WhatsApp any time to book.</p>
+  </section>
+
+  <section style="margin-top:32px;">
+    <h2 style="text-align:center;">Frequently Asked Questions</h2>
+    <div class="faq" style="max-width:640px; margin:16px auto 0;">
+      <details open>
+        <summary>Where is Bevin Transports located?</summary>
+        <p>Bevin Transports is located at Tiruchendur Bus Stand, Tiruchendur, Tamil Nadu 628215.</p>
+      </details>
+      <details>
+        <summary>How can I contact Bevin Transports?</summary>
+        <p>Call or WhatsApp +91 63804 58832, available 24 hours a day, 7 days a week.</p>
+      </details>
+      <details>
+        <summary>Where can I see reviews for Bevin Transports?</summary>
+        <p>You can see verified customer reviews and photos on the Bevin Transports Google Business Profile, linked from this page.</p>
+      </details>
+    </div>
+  </section>
 </main>
 
 <footer>
